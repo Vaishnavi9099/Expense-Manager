@@ -1,0 +1,40 @@
+name: expense_manager
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # Charts for Budget page
+  fl_chart: ^1.0.0
+
+  # Date and time formatting
+  intl: ^0.20.2
+
+  # Local notifications
+  flutter_local_notifications: ^19.4.0
+
+  # Timezone support for scheduled notifications
+  timezone: ^0.10.1
+
+  # Notification permissions
+  permission_handler: ^12.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended Flutter lint rules
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
